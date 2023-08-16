@@ -1,0 +1,91 @@
+.game-page-container {
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.choices-wrapper {
+  display: flex;
+  width: 80%;
+  max-width: 1000px;
+  min-width: 300px;
+  justify-content: center;
+}
+
+.choice-area-wrapper {
+  border-radius: 50%;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-page-container p {
+  color: var(--white);
+  z-index: 10;
+}
+
+.choice-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.result-container {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.result-container-mobile {
+  height: 200px;
+}
+
+.circle1 {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: var(--backgroundGradientTo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  position: absolute;
+}
+
+@media only screen and (min-width: 600px) {
+  .game-page-container {
+    min-height: 300px;
+  }
+  .choice-section {
+    height: 300px;
+    min-width: 30%;
+    flex-direction: column;
+  }
+
+  .game-page-container .game-button-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+
+  .game-page-container .game-button {
+    width: 150px;
+  }
+
+  .house-choice-area {
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle1 {
+    width: 150px;
+    height: 150px;
+  }
+}

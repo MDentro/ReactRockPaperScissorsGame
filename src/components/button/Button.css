@@ -1,0 +1,9 @@
+button {
+  background-color: transparent;
+  color: var(--white);
+  border-radius: 10px;
+  border: 2px solid var(--headerOutline);
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+}

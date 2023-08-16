@@ -1,0 +1,42 @@
+.begin-screen-game-page-container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.begin-screen-game-page-wrapper {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wrapper {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.game-button-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .begin-screen-game-page-container {
+    height: 350px;
+  }
+  .button-wrapper {
+    width: 400px;
+    height: 400px;
+  }
+}
